@@ -1,0 +1,76 @@
+@import 'variable.scss';
+
+.main-wrapper {
+  max-width: 1050px;
+  margin: 0 auto;
+  position: relative;
+  @media screen and (max-width: 1090px) {
+    padding: 0 20px;
+  }
+}
+
+.main-container {
+  position: relative;
+  max-width: 690px;
+  margin: 10px 0 10px auto;
+  @media screen and (max-width: 1090px) {
+    margin: 10px auto 10px 0;
+  }
+  @media screen and (max-width: 740px) {
+    overflow-x: scroll;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.main-container__title {
+  color: $main-black;
+  padding-top: 150px;
+  max-width: 690px;
+  margin: 0 0 44px auto;
+  margin-bottom: 44px;
+  font-size: 40px;
+  font-weight: 700;
+
+  text-align: left;
+  line-height: 48px;
+
+  @media screen and (max-width: 1090px) {
+    margin: 0 auto 44px 0;
+  }
+  @media screen and (max-width: 740px) {
+    margin: 0 auto 56px 0;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+}
+
+.section-anchor {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: $grey-light;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.no-download {
+  opacity: 0.5;
+}
+
+.education-wrapper {
+  position: relative;
+  .section-anchor {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+.darken {
+  filter: blur(2px);
+}

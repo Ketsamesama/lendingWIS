@@ -1,0 +1,38 @@
+.teachers-wrapper {
+  color: #000;
+}
+
+.teachers__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+
+  .teachers__list-item {
+    list-style-type: none;
+
+    &:nth-child(2) {
+      margin-left: 10px;
+      margin-right: 34px;
+    }
+
+    h3 {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 26px;
+      margin-top: 0;
+      margin-bottom: 12px;
+    }
+
+    .teachers__img {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 26px;
+    }
+
+    .teachers-expertise {
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 17.75px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.licenses-wrapper {
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #000;
+
+    @media screen and (max-width: 1090px) {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 25px;
+      text-align: left;
+    }
+  }
+}
+
+.license__img-wrapper {
+  display: flex;
+  .btn {
+    border: none;
+
+    &:first-child {
+      margin-right: 30px;
+    }
+
+    img {
+      width: 310px;
+    }
+  }
+}

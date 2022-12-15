@@ -1,0 +1,23 @@
+@import "variable.scss";
+
+body {
+  font-family: Euclid Circular A;
+  color: $main-black;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
